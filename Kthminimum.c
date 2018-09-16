@@ -11,6 +11,7 @@ void swap(int * a, int *b){
 	*b=t;
 }
 
+//Partitioning the array into two halves
 int partition(int *arr,int p,int r){
 	int x,i,j;
 	x=arr[r];
